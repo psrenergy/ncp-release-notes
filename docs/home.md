@@ -1,16 +1,14 @@
 ---
 layout: default
-title: Home
+title: Release notes
 nav_order: 1
 description: "Just the Docs is a responsive Jekyll theme with built-in search that is easily customizable and hosted on GitHub Pages."
 permalink: /
 ---
 
-# Release notes
+# Version 5.26
 
-## Version 5.26
-
-### New Features
+## New Features
 
 * Solver updated to the Xpress Suite Optimization 8.14.
 * Included the hydro unit inertia representation.
@@ -46,7 +44,7 @@ permalink: /
 * New output results file: Bypass valve flow (min / max) violation.
 * New output results file: Hydro average limit violation.
 
-### Corrections
+## Corrections
 
 * Corrected a bug in the general minimum total outflow penalty.
 * Corrected a bug in the exclusive secondary reserves output.
@@ -56,9 +54,7 @@ permalink: /
 * Corrected a bug in the reading process of missing renewable generation data.
 * Corrected a bug in the constant tailwater level representation.
 
+## Support or Contact
 
-
-### Support or Contact
-
-Having trouble? Contact our support team via `sddp@psr-inc.com` and we’ll help you sort it out.
+Having trouble? Contact our support team via `ncp@psr-inc.com` and we’ll help you sort it out.
 
