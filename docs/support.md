@@ -1,8 +1,6 @@
 ---
-layout: default
 title: Support or contact
 nav_order: 2
-permalink: /
 ---
 
 # Support or contact
