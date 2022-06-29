@@ -35,8 +35,8 @@ permalink: /
 * Thermal combined cycle production modeling reformulated.
 * Thermal fuel consumption modeling reformulated.
 * New output results file:
-  * Average Elastic Demand Price
-  * Stage Resolution
+  * Average elastic demand price
+  * Stage resolution
   * Hydro unit inertia
   * Hydro unit synchronous condenser status
   * Hydro unit synchronous condenser start-up / cost
@@ -193,7 +193,7 @@ permalink: /
 * Added the possibility to select both the future cost function and target generation as Terminal Function for the chronological execution option.
 * New output results file:
   * Tailwater elevation
-  * Hydro Unit production factor
+  * Hydro unit production factor
   * Elastic transaction revenue
 
 ## Corrections
@@ -419,13 +419,13 @@ permalink: /
 * Included the ability to use more than one fuel simultaneously for Multi-fuel Thermal Power Plants.
 * Included the Amazon Simple Storage Service (Amazon S3) integration to the NCP Cloud Computing mode.
 * New output results files:
-  * Hydro Plant / Hydro Unit / Thermal Plant Secondary Spinning Reserve (upward/downward)
-  * Hydro Plant / Hydro Unit / Thermal Plant Secondary Spinning Cost (upward/downward)
-  * System Secondary Spinning Reserve Purchase (upward/downward)
-  * Bus Energy Price
-  * Bus Revenue
-  * Minimum Spillage Violation
-  * Generation Constraint Violation
+  * Hydro Plant / Hydro Unit / Thermal Plant secondary spinning reserve (upward/downward)
+  * Hydro Plant / Hydro Unit / Thermal Plant secondary spinning cost (upward/downward)
+  * System secondary spinning reserve purchase (upward/downward)
+  * Bus energy price
+  * Bus revenue
+  * Minimum spillage violation
+  * Generation constraint violation
 
 ## Corrections
 
@@ -459,7 +459,7 @@ permalink: /
 * New output graphs for Chronological Execution.
 * New output graphs for Stochastic Execution.
 * New output results file:
-  * Sum of Circuit Flow Marginal Cost
+  * Sum of circuit flow marginal cost
 
 ## Corrections
 
@@ -589,8 +589,8 @@ permalink: /
 * Added the Discrete Generation for Hydro Power Plants.
 * Added the possibility of definition for System Secondary Spinning Reserve Requirements in 15/30 minutes.
 * Added the individual Generic Generation Constraints for:
-  * Hydro Power Plants.
-  * Thermal Power Plants.
+  * Hydro Power Plants
+  * Thermal Power Plants
 * Added the Warm Startup Cost field for Thermal Power Plants.
 * Added the Startup Minimum Time for Warm State of Thermal Power Plants.
 * Added the option to only consider coupled generation of Combined Cycle Plants.
