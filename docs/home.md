@@ -16,7 +16,7 @@ permalink: /
 * Included the representation of hydro operative average constraints (turbined / spilled / total outflow / storage / forebay / tailwater level).
 * Included the forebay elevation x spillway rating curve outflow table with hourly changing factors.
 * Included the definition of hill curve chart for hydro units.
-* Included the ability to assign different amounts (upward / downward) of secondary reserve in batteries.
+* Included the ability to assign different amounts / prices (upward / downward) of secondary reserve in batteries.
 * Included the ability to lead with negative market / bus energy prices for revenue maximization criteria.
 * Included the ability to bid different amounts / prices (upward / downward) of secondary reserve for a group of plants.
 * Included the infiltration x storage table
@@ -35,16 +35,16 @@ permalink: /
 * Thermal combined cycle production modeling reformulated.
 * Thermal fuel consumption modeling reformulated.
 * New output results file:
-  * Average Elastic Demand Price.
-  * Stage Resolution.
-  * Hydro unit inertia.
-  * Hydro unit synchronous condenser status.
-  * Hydro unit synchronous condenser start-up / cost.
-  * Total received outflow.
-  * Hydro unit FCAS assignation (raise / lower).
-  * Bypass valve flow.
-  * Bypass valve flow (min / max) violation.
-  * Hydro average limit violation.
+  * Average Elastic Demand Price
+  * Stage Resolution
+  * Hydro unit inertia
+  * Hydro unit synchronous condenser status
+  * Hydro unit synchronous condenser start-up / cost
+  * Total received outflow
+  * Hydro unit FCAS assignation (raise / lower)
+  * Bypass valve flow
+  * Bypass valve flow (min / max) violation
+  * Hydro average limit violation
 
 ## Corrections
 
@@ -83,11 +83,11 @@ permalink: /
 * Included the ability to valorize the total outflow (turbined + spiled) in transit.
 * Maximum number of target generation constraints extended to 20000.
 * New output results file:
-  * Renewable Secondary Reserve (upward / downward).
-  * Renewable Primary Reserve.
-  * Renewable Primary Reserve Violation.
-  * Demand and Load per Bus in 5-minute resolution.
-  * Hydro Plant / Thermal Plant / Hydro Unit / Battery / Renewable Exclusive Secondary Reserve (upward / downward).
+  * Renewable secondary reserve (upward / downward)
+  * Renewable primary reserve
+  * Renewable primary reserve violation
+  * Demand and Load per Bus in 5-minute resolution
+  * Hydro Plant / Thermal Plant / Hydro Unit / Battery / Renewable exclusive secondary reserve (upward / downward)
 
 ## Corrections
 
@@ -130,7 +130,7 @@ permalink: /
 * Added the constraint type (minimum / maximum) to the Renewable Generation Constraint.
 * Added the NCP iFeedback option that collects automatically some statistics of each model execution.
 * New output results file:
-  * Battery Secondary Reserve (upward/downward).
+  * Battery secondary reserve (upward/downward)
 
 ## Corrections
 
@@ -160,7 +160,7 @@ permalink: /
 * Added import/export data from/to CSV functionality to the DC Link Registry Data.
 * Power View module (visualization of transmission network and results) updated to the version 1.18.
 * New output results file:
-  * Circuit flow sum constraint.
+  * Circuit flow sum constraint
 
 ## Corrections
 
@@ -192,9 +192,9 @@ permalink: /
 * Added the possibility to import minimum spillage constraints of a SDDP mid-long term planning study for the chronological execution option.
 * Added the possibility to select both the future cost function and target generation as Terminal Function for the chronological execution option.
 * New output results file:
-  * Tailwater Elevation.
-  * Hydro Unit Production Factor.
-  * Elastic Transaction Revenue.
+  * Tailwater elevation
+  * Hydro Unit production factor
+  * Elastic transaction revenue
 
 ## Corrections
 
@@ -276,7 +276,7 @@ permalink: /
 * Included an automatic tool to update the NCP user license.
 * Dashboard panel updated with new download options.
 * New output results file:
-  * Thermal Commercial Revenue.
+  * Thermal commercial revenue
 
 ## Corrections
 
@@ -346,8 +346,8 @@ permalink: /
 * Added import/export data from/to CSV functionality to the Reservoir Operation Constraint.
 * Added import/export data from/to CSV functionality to the Renewable Generation Constraint.
 * New output results file:
-  * Quadratic losses.
-  * Circuit loading.
+  * Quadratic losses
+  * Circuit loading
 
 ## Corrections
 
@@ -419,13 +419,13 @@ permalink: /
 * Included the ability to use more than one fuel simultaneously for Multi-fuel Thermal Power Plants.
 * Included the Amazon Simple Storage Service (Amazon S3) integration to the NCP Cloud Computing mode.
 * New output results files:
-  * Hydro Plant / Hydro Unit / Thermal Plant Secondary Spinning Reserve (upward/downward).
-  * Hydro Plant / Hydro Unit / Thermal Plant Secondary Spinning Cost (upward/downward).
-  * System Secondary Spinning Reserve Purchase (upward/downward).
-  * Bus Energy Price.
-  * Bus Revenue.
-  * Minimum Spillage Violation.
-  * Generation Constraint Violation.
+  * Hydro Plant / Hydro Unit / Thermal Plant Secondary Spinning Reserve (upward/downward)
+  * Hydro Plant / Hydro Unit / Thermal Plant Secondary Spinning Cost (upward/downward)
+  * System Secondary Spinning Reserve Purchase (upward/downward)
+  * Bus Energy Price
+  * Bus Revenue
+  * Minimum Spillage Violation
+  * Generation Constraint Violation
 
 ## Corrections
 
@@ -459,7 +459,7 @@ permalink: /
 * New output graphs for Chronological Execution.
 * New output graphs for Stochastic Execution.
 * New output results file:
-  * Sum of Circuit Flow Marginal Cost.ten>
+  * Sum of Circuit Flow Marginal Cost
 
 ## Corrections
 
@@ -487,7 +487,7 @@ permalink: /
 * Added the possibility to import circuit’s violation limits of a SDDP mid-long term planning study for the chronological execution option.
 * Added import/export data from/to CSV functionality to the Sum of Circuits Flow.
 * Extended some model dimensions such as maximum number of circuits, buses and renewable power plants.
-* Improved the memory allocation of network constraints.ten>
+* Improved the memory allocation of network constraints
 
 ## Corrections
 
@@ -516,7 +516,7 @@ permalink: /
 * Extended some model dimensions such as maximum number of circuits and buses.
 * Several improvements and new developments applied to Cloud Computing mode, such as Hadoop / Amazon Redshift integration and multi-scenarios graphing tool.
 * New output results file:
-  * Thermal generation marginal cost.
+  * Thermal generation marginal cost
 
 ## Corrections
 
@@ -551,11 +551,11 @@ permalink: /
 * Included a beta version of outputs visualization tool for the cases with network representation, based on geographical coordinates.
 * Added a new possibility of definition of chronological data based on a predefined set of days.
 * New output results file:
-  * Battery net generation.
-  * Battery storage.
-  * CO2 Emissions.
-  * NOx Emissions.
-  * SOx Emissions.
+  * Battery net generation
+  * Battery storage
+  * CO2 Emissions
+  * NOx Emissions
+  * SOx Emissions
 
 ## Corrections
 
@@ -597,12 +597,12 @@ permalink: /
 * Reformulated the Startup Minimum Time Modeling of Thermal Power Plants.
 * Added the possibility of definition for System Generic Generation Constraints in % of the total demand.
 * Added import/export data from/to CSV functionality to:
-  * Hydro Secondary Spinning Reserve.
-  * Thermal Secondary Spinning Reserve.
+  * Hydro Secondary Spinning Reserve
+  * Thermal Secondary Spinning Reserve
 * New output results file:
-  * Thermal warm start-up cost.
-  * Thermal warm start-up decision.
-  * Thermal cold start-up decision.
+  * Thermal warm start-up cost
+  * Thermal warm start-up decision
+  * Thermal cold start-up decision
 
 ## Corrections
 
@@ -619,11 +619,11 @@ permalink: /
 * Reformulated the Energy Bid Screen for Hydro Power Plants.
 * Solver updated to the Xpress Suite Optimization 7.4.
 * New output results file:
-  * Thermal shutdown cost.
-  * Thermal cold start-up cost.
-  * Thermal start-up cost.
-  * Combined cycle generator coupling cost.
-  * Combined cycle generator coupling.
+  * Thermal shutdown cost
+  * Thermal cold start-up cost
+  * Thermal start-up cost
+  * Combined cycle generator coupling cost
+  * Combined cycle generator coupling
 
 ## Corrections
 
@@ -648,19 +648,19 @@ permalink: /
 * Added the Generation Constraint as a % of total load for Renewable Sources.
 * Added the possibility to define time steps of 15 and 30 minutes for Renewable Sources Generation.
 * Added import/export data from/to CSV functionality to:
-  * Hydro Plants Configuration.
-  * Thermal Plants Configuration.
-  * Bus Configuration.
-  * Circuit Configuration.
+  * Hydro Plants Configuration
+  * Thermal Plants Configuration
+  * Bus Configuration
+  * Circuit Configuration
 * Added the automatic unit conversion in Target Storage screen.
 * Added a new language in the graphical interface (French).
 * Deprecated the option to define hourly/daily production factor for hydro plants.
 * Added the possibility to define the constraints of the thermal plants startup minimum time screen in floating point numbers.
 * New output results file:
-  * Maximum operative storage violation.
-  * Thermal shutdown.
-  * Renewable over generation.
-  * Thermal operative average cost.
+  * Maximum operative storage violation
+  * Thermal shutdown
+  * Renewable over generation
+  * Thermal operative average cost
 
 ## Corrections
 
@@ -677,10 +677,10 @@ permalink: /
 * Solver updated to the Xpress Suite Optimization 7.3.
 * Definition of number of cores to be used in NCP Mixed-Integer Programming Solver.
 * New output results file:
-  * Hydro secondary reserve cost.
-  * Thermal secondary reserve cost.
-  * Hydro unit secondary reserve cost.
-  * Hydro energy bid cost.
+  * Hydro secondary reserve cost
+  * Thermal secondary reserve cost
+  * Hydro unit secondary reserve cost
+  * Hydro energy bid cost
 
 ## Corrections
 
@@ -701,7 +701,7 @@ permalink: /
 * Added the NCP Dimensions screen in the menu bar.
 * Added the Secondary Spinning Reserve Bid Prices definition for Hydro Units.
 * New output results file:
-  * Non-dispatchable generation.
+  * Non-dispatchable generation
 
 ## Corrections
 
@@ -727,10 +727,10 @@ permalink: /
 * Added the Generation Limits per Elevation for hydro units.
 * New output results file:
   * Hydro unit opportunity cost.
-  * Available hydro (capacity - generation).
-  * Available thermal (capacity - generation).
-  * Available hydro unit (capacity - generation).
-  * Available hydro unit capacity.
+  * Available hydro (capacity - generation)
+  * Available thermal (capacity - generation)
+  * Available hydro unit (capacity - generation)
+  * Available hydro unit capacity
 
 ## Corrections
 
@@ -857,7 +857,7 @@ permalink: /
 
 * Input/output data unit converter.
 * New output results file:
-  * Revenue.
+  * Revenue
 
 ## Corrections
 
@@ -868,8 +868,8 @@ permalink: /
 ## New features
 
 * New output results file:
-  * Maximum available turbined outflow.
-  * Evaporation.
+  * Maximum available turbined outflow
+  * Evaporation
 
 ## Corrections
 
@@ -903,9 +903,9 @@ permalink: /
 * 'Power reserve' label has been updated to 'Operative spinning reserve bid'
 * 'Power reserve price' label has been updated to 'Operative spinning reserve price'
 * New output results file:
-  * Hydro cold reserve bid.
-  * Thermal cold reserve bid.
-  * Reserve bid marginal cost.
+  * Hydro cold reserve bid
+  * Thermal cold reserve bid
+  * Reserve bid marginal cost
 
 # Version 5.4
 
@@ -915,9 +915,9 @@ permalink: /
 * Added the Power reserve price chronological data screen (only for maximization of revenues).
 * Added new execution option: variable production factor (hourly/daily).
 * New output results file:
-  * Target generation marginal cost.
-  * Secondary reserve marginal cost.
-  * Availability fuel marginal cost.
+  * Target generation marginal cost
+  * Secondary reserve marginal cost
+  * Availability fuel marginal cost
 
 # Version 5.3
 
@@ -930,14 +930,14 @@ permalink: /
 * Added the Thermal reactive generation chronological data screen.
 * Added the Power factor chronological data screen.
 * New output results file:
-  * Minimum outflow violation.
-  * Alert storage violation.
-  * Minimum storage violation.
-  * Minimum total outflow violation.
-  * Maximum total outflow violation.
-  * Irrigation violation.
-  * Terminal function marginal cost.
-  * Values of the objective function terms.
+  * Minimum outflow violation
+  * Alert storage violation
+  * Minimum storage violation
+  * Minimum total outflow violation
+  * Maximum total outflow violation
+  * Irrigation violation
+  * Terminal function marginal cost
+  * Values of the objective function terms
 
 # Version 5.2
 
@@ -961,13 +961,13 @@ permalink: /
 * Added import/export data from/to CSV functionality to:
   * Hydro Maintenance chronological data screen.
   * Thermal Maintenance chronological data screen.
-  * Inflows chronological data screen.
-  * System Demand chronological data screen.
-  * Fuel Price chronological data screen.
+  * Inflows chronological data screen
+  * System Demand chronological data screen
+  * Fuel Price chronological data screen
 * NCP's mathematical model is now taking into consideration the Reservoir's Controllable Spill flag of the Hydro configuration data screen.
 * NCP's mathematical model is now taking into consideration the Reservoir's Evaporation Coefficients of the Hydro configuration data screen.
 * New output results file:
-  * Marginal cost per circuit.
+  * Marginal cost per circuit
 
 # Version 5.1
 
