@@ -8,7 +8,7 @@ permalink: /
 
 # Version 5.26
 
-Download link: https://www.psr-inc.com/app/link/?t=d&f=ncp-5.26-setup.zip
+🔗 <https://www.psr-inc.com/app/link/?t=d&f=ncp-5.26-setup.zip>
 
 ## New features
 
@@ -60,7 +60,7 @@ Download link: https://www.psr-inc.com/app/link/?t=d&f=ncp-5.26-setup.zip
 
 # Version 5.25
 
-Download link: https://www.psr-inc.com/app/link/?t=d&f=ncp-5.25-setup.zip
+🔗 <https://www.psr-inc.com/app/link/?t=d&f=ncp-5.25-setup.zip>
 
 ## New features
 
@@ -107,7 +107,7 @@ Download link: https://www.psr-inc.com/app/link/?t=d&f=ncp-5.25-setup.zip
 
 # Version 5.24
 
-Download link: https://www.psr-inc.com/app/link/?t=d&f=ncp-5.24-setup.zip
+🔗 <https://www.psr-inc.com/app/link/?t=d&f=ncp-5.24-setup.zip>
 
 ## New features
 
