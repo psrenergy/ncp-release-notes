@@ -8,6 +8,8 @@ permalink: /
 
 # Version 5.26
 
+Download link: https://www.psr-inc.com/app/link/?t=d&f=ncp-5.26-setup.zip
+
 ## New features
 
 * Solver updated to the Xpress Suite Optimization 8.14.
@@ -58,6 +60,8 @@ permalink: /
 
 # Version 5.25
 
+Download link: https://www.psr-inc.com/app/link/?t=d&f=ncp-5.25-setup.zip
+
 ## New features
 
 * NCP can now handle with time steps of 5 minutes.
@@ -102,6 +106,8 @@ permalink: /
 * Corrected a bug in the minimum storage representation of batteries.
 
 # Version 5.24
+
+Download link: https://www.psr-inc.com/app/link/?t=d&f=ncp-5.24-setup.zip
 
 ## New features
 
