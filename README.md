@@ -1,2 +1,2 @@
-# PSR docs template
-Template documentation repository for PSR
+# NCP release notes
+Repository for NCP release notes
