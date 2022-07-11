@@ -6,6 +6,17 @@ description: "NCP release notes"
 permalink: /
 ---
 
+# Version 5.26.a
+
+## New features
+
+* Included the definition of execution horizon with partial times.
+* Extended the hydro station inflow forecast to 05/15/30 minutes resolution.
+
+## Corrections
+
+* Corrected a bug in the electricity production smoothing feature.
+
 # Version 5.26
 
 🔗 [Download](https://www.psr-inc.com/app/link/?t=d&f=ncp-5.26-setup.zip)
@@ -23,7 +34,7 @@ permalink: /
 * Included the ability to bid different amounts / prices (upward / downward) of secondary reserve for a group of plants.
 * Included the infiltration x storage table
 * Included the bypass valve representation.
-* Included the possibility to define smoothing feature penalty.
+* Included the possibility to define penalty to the electricity production smoothing feature.
 * Included the representation of daily forebay ramps.
 * Included the control to enable / disable individual generation constraints.
 * Extended the automatic recovery tool for turbined / spilled initial conditions.
