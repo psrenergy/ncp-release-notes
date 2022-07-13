@@ -11,7 +11,9 @@ permalink: /
 ## New features
 
 * Included the definition of execution horizon with partial times.
-* Extended the hydro station inflow forecast to 05/15/30 minutes resolution.
+* Extended the hydro station inflow forecast to sub-hourly resolution.
+* New output results file:
+  * Target storage violation
 
 ## Corrections
 
@@ -41,7 +43,7 @@ permalink: /
 * Extended the convergence report to include the partial executions of the rolling horizon scheme.
 * Extended the possibility to define multiple hydro unit generation forbidden zones per forebay level.
 * Extended the possibility to define penalties for target storage constraints.
-* Extended the maintenance scenario of hydro units to 05/15/30 minutes resolution.
+* Extended the maintenance scenario of hydro units to sub-hourly resolution.
 * Maximum number of target generation constraints extended to 50000.
 * Maximum number of DC links extended to 5000.
 * Hydro unit production modeling reformulated.
@@ -123,7 +125,7 @@ permalink: /
 ## New features
 
 * Solver updated to the Xpress Suite Optimization 8.9.
-* Extended the Maintenance Scenario of Hydro Plant / Thermal Plant to 15/30 minutes definition.
+* Extended the Maintenance Scenario of Hydro Plant / Thermal Plant to sub-hourly resolution.
 * The tailwater elevation x outflow modeling representation was reformulated.
 * The forebay elevation x storage modeling representation was reformulated.
 * The maximum quality heuristic was tuned to achieve better performance.
