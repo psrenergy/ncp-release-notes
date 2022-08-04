@@ -79,7 +79,7 @@ permalink: /
 * Added the possibility to define a primary reserve constraint to renewable power plants.
 * Added the possibility to define a minimum / maximum limit applied to battery's secondary reserve.
 * Added the possibility to define a price to battery's secondary reserve offers.
-* Added the possibility to define generation constraints (charge / discharge) for betteries.
+* Added the possibility to define generation constraints (charge / discharge) for batteries.
 * Included the variable tailwater level definition for hydro plants (tide effect).
 * Added the possibility to define penalty values to system generation constraints.
 * Added import/export data from/to CSV functionality to the Target Generation constraint.
