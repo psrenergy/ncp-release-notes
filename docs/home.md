@@ -6,6 +6,24 @@ description: "NCP release notes"
 permalink: /
 ---
 
+# Version 5.26.a
+
+🔗 [Download](https://www.psr-inc.com/app/link/?t=d&f=ncp-5.26.a-patch.zip)
+
+## New features
+
+* Included the definition of execution horizon with partial times.
+* Included the option to select a single / multi stopping criterion of the model execution.
+* Extended the hydro station inflow forecast to sub-hourly resolution.
+* New output results file:
+  * Target storage violation
+
+## Corrections
+
+* Corrected a bug in the electricity production smoothing feature.
+* Corrected a bug in multi-fuel thermal units associated to combined cycle plants.
+* Corrected a bug in the secondary spinning reserve assignation (downward) of batteries.
+
 # Version 5.26
 
 🔗 [Download](https://www.psr-inc.com/app/link/?t=d&f=ncp-5.26-setup.zip)
