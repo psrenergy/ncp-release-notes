@@ -23,6 +23,7 @@ permalink: /
 * Corrected a bug in the electricity production smoothing feature.
 * Corrected a bug in multi-fuel thermal units associated to combined cycle plants.
 * Corrected a bug in the secondary spinning reserve assignation (downward) of batteries.
+* Corrected a bug in the minimum coupling generation of combined cycle plants.
 
 # Version 5.26
 
