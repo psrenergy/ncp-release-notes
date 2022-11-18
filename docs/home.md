@@ -6,7 +6,7 @@ description: "NCP release notes"
 permalink: /
 ---
 
-# Version 5.26.a
+# Version 5.26.b
 
 🔗 [Download](https://www.psr-inc.com/app/link/?t=d&f=ncp-5.26.a-patch.zip)
 
@@ -17,6 +17,8 @@ permalink: /
 * Extended the hydro station inflow forecast to sub-hourly resolution.
 * New output results file:
   * Target storage violation
+  * Available renewable power
+  * Renewable O&M cost
 
 ## Corrections
 
