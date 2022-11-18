@@ -66,6 +66,8 @@ permalink: /
   * Bypass valve flow
   * Bypass valve flow (min / max) violation
   * Hydro average limit violation
+  * Renewable O&M total cost
+  * Renewable curtailment cost
 
 ## Corrections
 
