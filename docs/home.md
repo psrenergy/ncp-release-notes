@@ -15,6 +15,7 @@ permalink: /
 * Included the definition of execution horizon with partial times.
 * Included the option to select a single / multi stopping criterion of the model execution.
 * Extended the hydro station inflow forecast to sub-hourly resolution.
+* Included the possibility to consider / not consider bypass valves.
 * New output results file:
   * Target storage violation
   * Available renewable power
