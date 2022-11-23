@@ -17,6 +17,7 @@ permalink: /
 * Extended the hydro station inflow forecast to sub-hourly resolution.
 * Included the possibility to consider / not consider bypass valves.
 * Included the definition of inflexible operation of bypass valves.
+* Included the hydro plant generation boost feature.
 * New output results file:
   * Target storage violation
   * Available renewable power
