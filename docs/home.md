@@ -29,6 +29,7 @@ permalink: /
 * Corrected a bug in multi-fuel thermal units associated to combined cycle plants.
 * Corrected a bug in the secondary spinning reserve assignation (downward) of batteries.
 * Corrected a bug in the minimum coupling generation of combined cycle plants.
+* Corrected a bug in the renewable generation constraint screen.
 
 # Version 5.26
 
